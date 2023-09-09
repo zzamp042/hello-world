@@ -1,7 +1,11 @@
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("Hello World");
-		System.out.println("Hi world");
+		for(int i=1; i<=9; i++) {
+			for(int j=2; j<=9; j++) {
+				System.out.print(i+"*"+j+"="+i*j+"\t");
+			}
+			System.out.println();
+		}
 	}
 }
